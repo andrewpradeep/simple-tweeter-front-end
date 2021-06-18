@@ -1,0 +1,9 @@
+{
+	"name" : "simple-tweet",
+	"script" : {
+		"dev" : "node index"
+	},
+	"dependencies" : {
+		"express" : "4.17.1"
+	}
+}

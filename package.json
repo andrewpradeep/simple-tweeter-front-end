@@ -1,6 +1,6 @@
 {
 	"name" : "simple-tweet",
-	"script" : {
+	"scripts" : {
 		"dev" : "node index"
 	},
 	"dependencies" : {

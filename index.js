@@ -30,6 +30,10 @@ function runWebPack()
 app.get("/",(req,res)=>{
 	res.sendFile(path.resolve(__dirname,"./webapps/dist/index.html"))
 })
+
+app.get("/webapps/dist/:filename",(req,res)=>{
+	res.sendFile(path.resolve(__dirname,`./webapps/dist/${req.params.filename}`));
+})
 console.log("starting webpack ....");
 runWebPack().then(()=>{
 	app.listen(PORT,(err)=>{

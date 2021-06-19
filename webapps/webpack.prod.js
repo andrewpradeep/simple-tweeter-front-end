@@ -9,12 +9,12 @@ module.exports = {
 	},
 	output: {
 		filename: "[name].[contenthash].js",
+		chunkFilename: "[name].[contenthash].js",
 		path : path.resolve(__dirname,"./dist/"),
 		publicPath: "./webapps/dist/"
 	},
 	plugins: [new htmlWebPackPlugin({
 		filename: path.resolve(__dirname,"./dist/index.html"),
 		template : path.resolve(__dirname,"./index.html"),
-		hash : true,
 	})]
 }

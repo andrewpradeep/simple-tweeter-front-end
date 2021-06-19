@@ -3,9 +3,11 @@ const app = new express();
 const PORT = process.env.PORT || '3300';
 const path = require("path");
 
+console.log("initiazing application");
+
 function runWebPack()
 {
-	const config = require("./webapps/webpack.prod");
+	const config = require(path.resolve(__dirname,"./webapps/webpack.prod"));
 	const webpack = require("webpack");
 	const compiler = webpack(config);
 
@@ -17,7 +19,7 @@ function runWebPack()
 			}
 			else
 			{
-				console.log("webpack successfull", res);
+				console.log("webpack successfull");
 				resolve(res)
 			}
 		})
@@ -28,8 +30,7 @@ function runWebPack()
 app.get("/",(req,res)=>{
 	res.sendFile(path.resolve(__dirname,"./webapps/dist/index.html"))
 })
-
-
+console.log("starting webpack ....");
 runWebPack().then(()=>{
 	app.listen(PORT,(err)=>{
 		err ? console.error(err) : console.log(`Simple Tweeter is online and listening on http://localhost:${PORT}`);

@@ -1,2 +1,4 @@
 node_modules/
 webapps/dist
+.idea
+package-lock.json

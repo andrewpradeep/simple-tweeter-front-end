@@ -1,16 +1,21 @@
 {
-	"name" : "simple-tweet",
-	"scripts" : {
-		"start" : "node index"
+	"name": "simple-tweet",
+	"scripts": {
+		"start": "node index"
 	},
-	"dependencies" : {
-		"express" : "4.17.1",
+	"dependencies": {
+		"express": "4.17.1",
+		"html-webpack-plugin": "^5.3.1",
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"webpack": "^5.39.1",
-		"html-webpack-plugin": "^5.3.1"
+		"react-dom": "^17.0.2"
 	},
 	"devDependencies": {
-		"webpack-dev-server": "^3.11.2"
+		"webpack": "^5.39.1",
+		"@babel/core": "^7.0.0",
+		"@babel/plugin-proposal-class-properties": "^7.0.0",
+		"@babel/plugin-syntax-dynamic-import": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.1"
 	}
 }

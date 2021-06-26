@@ -1,0 +1,16 @@
+$primary-color : #943ef6;
+$secondary-color : #dcdce0;
+
+body{
+  background: $secondary-color;
+}
+
+a{
+  all : unset;
+}
+
+.st-navbar {
+  a {
+    margin: 5px;
+  }
+}

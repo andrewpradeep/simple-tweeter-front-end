@@ -11,7 +11,8 @@ module.exports = {
 		filename: "[name].[contenthash].js",
 		chunkFilename: "[name].[contenthash].js",
 		path : path.resolve(__dirname,"./dist/"),
-		publicPath: "./webapps/dist/"
+		publicPath: "./webapps/dist/",
+		clean : true
 	},
 	module: {
 		rules: [
@@ -19,6 +20,14 @@ module.exports = {
 				test: /\.(js)$/,
 				exclude: /node_modules/,
 				use: ['babel-loader']
+			},
+			{
+				test: /\.s[ac]ss$/i,
+				use: [
+					"style-loader",
+					"css-loader",
+					"sass-loader",
+				],
 			},
 		]
 	},

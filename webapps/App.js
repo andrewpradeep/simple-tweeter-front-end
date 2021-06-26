@@ -1,7 +1,8 @@
 import ReactDom from "react-dom";
 import React from "react";
+import "./styles/index.scss";
+import Home from "./js/pages/Home";
 
-import Home from "./Home";
 const rootElement  = document.getElementById("root");
 
 ReactDom.render(<Home/>,rootElement);

@@ -2,7 +2,9 @@
 	"name": "simple-tweet",
 	"scripts": {
 		"build": "webpack --config webapps/webpack.prod.js",
-		"start": "node index"
+		"start": "node index",
+		"predev" : "webpack  --config webapps/webpack.dev.js",
+		"dev" : "nodemon index"
 	},
 	"dependencies": {
 		"express": "4.17.1",
@@ -17,7 +19,13 @@
 		"@babel/preset-env": "^7.0.0",
 		"@babel/preset-react": "^7.0.0",
 		"babel-loader": "^8.0.1",
+		"sass-loader": "^12.1.0",
+		"css-loader": "^5.2.6",
+		"style-loader": "^3.0.0",
+		"sass": "^1.35.1",
 		"webpack": "^5.40.0",
-		"webpack-cli": "^4.7.2"
+		"webpack-cli": "^4.7.2",
+		"webpack-shell-plugin-next": "^2.2.2",
+		"nodemon": "^2.0.7"
 	}
 }

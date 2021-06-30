@@ -1,13 +1,13 @@
 import React from "react";
 
-function Navbar({links})
+function Navbar({links,selected})
 {
 	return (
 		<nav className={"st-navbar"}>
 			{
 				links.map(data=>{
 					return (
-						<a href={data.link} key={data.content}>{data.content}</a>
+						<a href={data.link} key={data.content} className={selected.link === data.link ? "sel" : ""}>{data.content}</a>
 					)
 				})
 			}

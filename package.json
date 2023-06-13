@@ -1,31 +1,30 @@
 {
-	"name": "simple-tweet",
-	"scripts": {
-		"build": "webpack --config webapps/webpack.prod.js",
-		"start": "node index",
-		"predev" : "webpack  --config webapps/webpack.dev.js",
-		"dev" : "nodemon index"
-	},
-	"dependencies": {
-		"express": "4.17.1",
-		"html-webpack-plugin": "^5.3.1",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.0.0",
-		"@babel/plugin-proposal-class-properties": "^7.0.0",
-		"@babel/plugin-syntax-dynamic-import": "^7.0.0",
-		"@babel/preset-env": "^7.0.0",
-		"@babel/preset-react": "^7.0.0",
-		"babel-loader": "^8.0.1",
-		"sass-loader": "^12.1.0",
-		"css-loader": "^5.2.6",
-		"style-loader": "^3.0.0",
-		"sass": "^1.35.1",
-		"webpack": "^5.40.0",
-		"webpack-cli": "^4.7.2",
-		"webpack-shell-plugin-next": "^2.2.2",
-		"nodemon": "^2.0.7"
-	}
+  "name": "simple-tweeter-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.5",
+    "less": "^4.1.3",
+    "next": "13.4.5",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.63.3",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.1.3"
+  },
+  "devDependencies": {}
 }

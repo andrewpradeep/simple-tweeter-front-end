@@ -1,0 +1,13 @@
+.profile-pic {
+
+ @apply flex justify-center items-center ;
+
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1rem;
+    margin: .5rem;
+    padding: 1rem;
+    background-color: rgb(35, 140, 233);
+    
+}

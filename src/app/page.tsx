@@ -1,5 +1,4 @@
-import TOptions from "@/Components/Common/TOptions";
-import TProfilePic from "@/Components/Common/TProfilePic";
+import TweetHeader from "@/Components/Common/TweetHeader";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,9 +12,11 @@ export default function Home() {
                     </code>
                 </p>
                 <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-                    <TProfilePic name="pradeep" />
-                    <TProfilePic name="Rajesh" />
-                    <TOptions />
+                    <TweetHeader
+                        userName={{ id: "s122njksndk", name: "pradeep_jawhar" }}
+                        displayName={"Pradeep"}
+                        date={Date.now()}
+                    />
                 </div>
             </div>
 

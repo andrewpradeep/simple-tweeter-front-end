@@ -24,7 +24,7 @@ const TweetHeader: React.FC<TweetHeaderProps> = ({
                 <span>{tweetDate.toDateString()}</span>
             </div>
 
-            <TOptions className="ml-auto" />
+            <TOptions className="ml-auto mt-4" />
         </div>
     );
 };

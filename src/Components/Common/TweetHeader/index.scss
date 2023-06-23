@@ -1,3 +1,4 @@
 .tweet-header-container {
-    @apply flex;
+    @apply flex border border-white p-2;
+    border-radius: 1rem;
 }

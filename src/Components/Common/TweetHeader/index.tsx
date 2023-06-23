@@ -11,7 +11,7 @@ const TweetHeader: React.FC<TweetHeaderProps> = ({
     date,
 }) => {
     const tweetDate = useMemo(() => {
-        return new Date(date);
+        return new Date(Number(date));
     }, [date]);
     return (
         <div className="tweet-header-container">

@@ -1,3 +1,5 @@
+"use client"; // This is a client component 👈🏽
+import "./index.scss";
 import React, { useMemo } from "react";
 import TOptions from "../TOptions";
 import TProfilePic from "../TProfilePic";
@@ -9,11 +11,10 @@ const TweetHeader: React.FC<TweetHeaderProps> = ({
     date,
 }) => {
     const tweetDate = useMemo(() => {
-        console.log("new date", date);
-        return new Date(date.toString());
+        return new Date(date);
     }, [date]);
     return (
-        <div className="flex">
+        <div className="tweet-header-container">
             <TProfilePic name={displayName}></TProfilePic>
             <div className="py-4 flex justify-between flex-col">
                 <span className="block">{displayName}</span>

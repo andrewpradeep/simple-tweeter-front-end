@@ -1,5 +1,4 @@
-import TweetComponent from "@/Components/Common/TweetComponent";
-import Image from "next/image";
+import TweetComponent from "@/Components/TweetFeed/TweetComponent";
 
 export default function Home() {
     return (

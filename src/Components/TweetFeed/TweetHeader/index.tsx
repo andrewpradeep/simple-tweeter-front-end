@@ -1,9 +1,10 @@
 "use client"; // This is a client component 👈🏽
 import "./index.scss";
 import React, { useMemo } from "react";
-import TOptions from "../TOptions";
-import TProfilePic from "../TProfilePic";
+
 import { TweetHeaderProps } from "./interface";
+import TProfilePic from "@/Components/Common/TProfilePic";
+import TOptions from "@/Components/Common/TOptions";
 
 const TweetHeader: React.FC<TweetHeaderProps> = ({
     displayName,

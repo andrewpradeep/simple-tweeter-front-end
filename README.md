@@ -25,7 +25,7 @@ IT also has offline support
 ![Alt text](readMeAssets/offline.png)
 
 Worked on push notification with actions
-![Alt text](readMeAssets/pushNotifications.png.png)
+![Alt text](readMeAssets/pushNotifications.png)
 
 UpComing:
 

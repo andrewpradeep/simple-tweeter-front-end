@@ -13,18 +13,21 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a Practice project where I practice Frontend concepts
 
 The Frontend is tightly coupled with the Backend in all services (push notifications, websocket)
 
-This is a Practice project where I practicee response design
+1. Responsive design
+
 ![Alt text](readMeAssets/image.png)
 ![Alt text](readMeAssets/image-1.png)
 
-IT also has offline support
+2. offline support using service workers
 
 ![Alt text](readMeAssets/offline.png)
 
-Worked on push notification with actions
+3. push notification with actions using service worker and pushManager
+
 ![Alt text](readMeAssets/pushNotifications.png)
 
 UpComing:

@@ -14,6 +14,8 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+The Frontend is tightly coupled with the Backend in all services (push notifications, websocket)
+
 This is a Practice project where I practicee response design
 ![Alt text](readMeAssets/image.png)
 ![Alt text](readMeAssets/image-1.png)
@@ -24,3 +26,9 @@ IT also has offline support
 
 Worked on push notification with actions
 ![Alt text](readMeAssets/pushNotifications.png.png)
+
+UpComing:
+
+1.Speech Synthesiser
+2.Installable PWA
+3.Chat applications (web sockets have been implemented need to implement Chat UI)

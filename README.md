@@ -15,7 +15,7 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 This is a Practice project where I practice Frontend concepts
 
-The Frontend is tightly coupled with the Backend in all services (push notifications, websocket)
+The Frontend is tightly coupled with the Backend https://github.com/andrewpradeep/simple-tweeter-back-end in all services (push notifications, websocket)
 
 1. Responsive design
 

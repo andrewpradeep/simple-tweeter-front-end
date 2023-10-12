@@ -29,6 +29,6 @@ Worked on push notification with actions
 
 UpComing:
 
-1.Speech Synthesiser
-2.Installable PWA
-3.Chat applications (web sockets have been implemented need to implement Chat UI)
+1. Speech Synthesiser
+2. Installable PWA
+3. Chat applications (web sockets have been implemented need to implement Chat UI)```
